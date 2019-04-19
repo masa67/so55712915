@@ -1,5 +1,5 @@
-import * as express from "express";
-import "./express-formater";
+import express from "express";
+import "../types/express-formater";
 
 const app = express();
 const port = 8080;
