@@ -1,10 +1,12 @@
 import express from "express";
-import "../types/express-formater";
+import formater from "./express-formater";
 
 const app = express();
 const port = 8080;
 
-app.get("/", (req, res) => res.respondWith({ ok: true }));
+express.response.test();
+
+app.get("/", (req, res) =>  res.respondWith({ ok: true }) );
 
 app.listen(port, () =>
   console.log(`Typescript app listening on port ${port}!`)
