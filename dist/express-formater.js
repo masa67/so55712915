@@ -13,4 +13,4 @@ express_1.default.response.respondWith = function (data) {
 express_1.default.response.test = function () {
     console.log('this is working...');
 };
-exports.default = {};
+exports.default = express_1.default;
