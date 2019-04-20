@@ -1,5 +1,5 @@
 
-import 'express-serve-static-core';
+import core from 'express-serve-static-core';
 import express from 'express';
 
 declare module 'express-serve-static-core' {
