@@ -14,5 +14,3 @@ express.response.respondWith = function(data: string) {
     data: data
   });
 };
-
-export default express;
